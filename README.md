@@ -38,10 +38,3 @@ Start the server
 ```bash
   node .
 ```
-
-
-## Deployment
-
-This project runs best in Vercel. Press the button below to start a Vercel deployment.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FhttpsMaximillion%2Fbarcode-scanner&project-name=barcode-scanner&repository-name=barcode-scanner)
