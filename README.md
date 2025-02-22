@@ -1,18 +1,19 @@
-
 # Book Scanner
 
 A book scanner website designed for a barcode reader. Created for the Math Department at MNSU.
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Authors
 
 - [@httpsMaximillion](https://www.github.com/httpsMaximillion)
 
 
-## License
+## Requirements
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
+- Git (https://git-scm.com)
+- Node.js (https://nodejs.org)
 ## Run Locally
 
 Clone the project
