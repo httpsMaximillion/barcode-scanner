@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+h1,
+h4,
+h5 {
+  text-align: center;
+}
+
+.isbn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-number-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.condition-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#status {
+  color: blue;
+}
+
+#book-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  visibility: hidden;
+}
+
+.book-info {
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: auto;
+  display: block;
+}

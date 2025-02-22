@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Book Scanner</title>
+  </head>
+  <body>
+    <h1>Book Scanner</h1>
+
+    <div class="box-number-div">
+      <input
+        type="text"
+        style="text-align: center"
+        id="box-number"
+        placeholder="Box Number"
+      />
+    </div>
+    <br />
+    <div class="isbn-div">
+      <input
+        type="text"
+        style="text-align: center"
+        id="isbn"
+        placeholder="Enter ISBN"
+      />
+    </div>
+
+    <h4>Condition</h4>
+
+    <form class="condition-form">
+      <input type="radio" id="used" name="condition-value" /><label>Used</label>
+      <input type="radio" id="new" name="condition-value" /><label>New</label>
+    </form>
+
+    <br>
+    <button id="download-btn">Download Database to CSV</button>
+    <h5 id="status">Currently waiting for scanned barcode...</h5>
+
+    <div id="book-container">
+      <img id="book-cover" src="" style="width: 6rem" />
+      <ul class="book-info">
+        <li id="title">Title:</li>
+        <li id="author">Author(s):</li>
+        <li id="publisher">Publisher(s):</li>
+        <a id="amazon-link">Amazon Link<a>
+      </ul>
+    </div>
+
+    <script src="client.js"></script>
+    <script>
+      document.getElementById("download-btn").addEventListener("click", function () {
+        window.location.href = 'http://localhost:8080/download-csv';
+      });
+    </script>
+  </body>
+</html>
