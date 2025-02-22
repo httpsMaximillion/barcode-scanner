@@ -18,23 +18,23 @@ A book scanner website designed for a barcode reader. Created for the Math Depar
 Clone the project
 
 ```bash
-  git clone https://github.com/httpsMaximillion/barcode-scanner
+git clone https://github.com/httpsMaximillion/barcode-scanner
 ```
 
 Go to the project directory
 
 ```bash
-  cd barcode-scanner
+cd barcode-scanner
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+npm install
 ```
 
 Start the server
 
 ```bash
-  node .
+node .
 ```
