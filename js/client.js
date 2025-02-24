@@ -101,6 +101,7 @@ function fetchBookData() {
           status.style.color = "green";
           status.textContent = "Book scanned successfully!";
           book_container.style.visibility = "visible";
+          document.getElementById("isbn").value = '';
 
           saveBookData(
             box_number,
